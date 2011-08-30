@@ -1,1 +1,1 @@
-web: sh target/bin/webapp
+web: mvn package exec:java -Dexec.mainClass="HelloWorld"  
